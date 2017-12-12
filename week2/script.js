@@ -14,6 +14,8 @@ for(let i = 0; i < numbers.length; i++) {
 console.log("The doubled numbers are", newNumbers); // [2, 6]
 */
 
+            // Nice Specific Answers :)
+
 let numbers = [1, 2, 3, 4];
 console.log("The original array is: ", numbers);              // The original array is: [ 1, 2, 3, 4 ]
 let filteredNumbers = numbers.filter(num => num % 2 !== 0); 
@@ -92,7 +94,7 @@ console.log("The task durations are converted from minutes to hours:", taskDurat
 // Filter out everything that took two hours or more
 
 let moreThenOrEqualTwoHours = taskDurationsToHours.filter(compare => {
-    return (compare.duration > 2 || compare.duration == 2) ? true : false
+    return (compare.duration >= 2) ? true : false // you can just write thim like my modifying it will work same way
 })
 
 console.log("There are the tasks that has been completed in two hours or more than two hours:", moreThenOrEqualTwoHours)
@@ -106,3 +108,8 @@ let MaartjeTakePerHour = 25;
 taskDurationsToHours.forEach(bill => MaartjeBill += MaartjeTakePerHour * bill.duration)
 
 console.log("If Maartje makes 25.00 € per hour then for two days, she makes:", MaartjeBill, "€")
+
+
+
+// You did it Great :) 
+// All the Best.
