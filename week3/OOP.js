@@ -11,10 +11,10 @@ class Movies {
     validateProperties(title) {
 
         if (title === '') {
-            throw new Error('Add a movie title');
+            throw new Error('Add a movie title!');
         }
         if (this.director === '') {
-            throw new Error('Missing the name of the director');
+            throw new Error('Add a director name!');
         }
     }
 
